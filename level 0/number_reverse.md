@@ -7,7 +7,7 @@ reverseInt(-123); // -321
 reverseInt(8900); // 98
 ```
 
-Решение учителя:
+### Решение учителя:
 
 ```
 const reverseInt = (num) => {
