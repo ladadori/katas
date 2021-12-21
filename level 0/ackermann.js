@@ -7,7 +7,6 @@ const ackermann = (m, n) => {
     }
     return ackermann(m - 1, ackermann(m, n - 1));
   };
-  
   export default ackermann;
 
   //ура, решение как у учителя!
