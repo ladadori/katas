@@ -1,5 +1,6 @@
 fix:
 	npx eslint . --fix
+	npx prettier --write .
 
 push:
 	git add .

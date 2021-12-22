@@ -13,6 +13,7 @@ formattedTime(600); // 10:00
 formattedTime(754); // 12:34
 formattedTime(1504); // 01:04
 ```
+
 ### Подсказки:
 
 - Используйте функцию Math.floor(number) для округления до нижней границы.
