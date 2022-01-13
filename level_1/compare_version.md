@@ -11,13 +11,15 @@
  
 compareVersion("0.2", "0.1"); // 1
  
-compareVersion("4.2", "4.2"); // 0```
+compareVersion("4.2", "4.2"); // 0
+```
 
 ### Примечания
 Подробнее о версиях: http://semver.org/lang/ru/
 
 ### Решение учителя
-```const compareVersion = (first, second) => {
+```
+const compareVersion = (first, second) => {
   const [a1, b1] = first.split('.');
   const [a2, b2] = second.split('.');
 
