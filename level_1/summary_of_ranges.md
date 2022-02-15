@@ -4,7 +4,7 @@
 
 ### Пример
 
-```
+```JavaScript
 summaryRanges([]);
 // []
 
@@ -23,7 +23,7 @@ summaryRanges([110, 111, 112, 111, -5, -4, -2, -3, -4, -5]);
 ```
 ### Решение учителя
 
-```
+```JavaScript
 
 const getRangeOfSequence = (sequence) => {
   const first = sequence[0];

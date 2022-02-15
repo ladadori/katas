@@ -4,7 +4,7 @@
 
 ### Пример
 
-```
+```JavaScript
 findWhere(
   [
     { title: 'Book of Fooos', author: 'FooBar', year: 1111 },
@@ -20,7 +20,7 @@ findWhere(
 
 ### Решение учителя
 
-```
+```JavaScript
 const findWhere = (data, where) => {
   const entries = Object.entries(where);
   for (const item of data) {

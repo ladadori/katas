@@ -4,7 +4,7 @@
 
 ### Примеры
 
-```
+```JavaScript
 chunk(['a', 'b', 'c', 'd'], 2);
 // [['a', 'b'], ['c', 'd']]
  
@@ -14,7 +14,7 @@ chunk(['a', 'b', 'c', 'd'], 3);
 
 ### Решение учителя
 
-```
+```JavaScript
 export default (arr, size) => {
   const nArr = [];
   for (let i = 0; i < arr.length; i += size) {

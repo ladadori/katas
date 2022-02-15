@@ -13,7 +13,7 @@ https://ru.hexlet.io/blog?per=10&page=5
 
 Реализуйте и экспортируйте функцию по умолчанию, которая принимает на вход список параметров и возвращает сформированный query string из этих параметров:
 
-```
+```JavaScript
 import bqs from '../buildQueryString.js';
  
 bqs({ per: 10, page: 1 });
@@ -26,6 +26,7 @@ bqs({ param: 'all', param1: true });
 
 ### Решение учителя
 
+```JavaScript
 export default (params) => {
   const keys = Object.keys(params).sort();
   const result = [];
@@ -36,4 +37,5 @@ export default (params) => {
 
   return result.join('&');
 };
+```
 

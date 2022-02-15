@@ -9,14 +9,14 @@
 
 ### Пример
 
-```
+```JavaScript
 calcInPolishNotation([1, 2, '+', 4, '*', 3, '+']); // 15
 calcInPolishNotation([7, 2, 3, '*', '-']); // 1
 ```
 
 ### Решение учителя
 
-```
+```JavaScript
 const calcInPolishNotation = (array) => {
   const stack = [];
   const operators = ['*', '/', '+', '-'];

@@ -7,7 +7,8 @@
 `0.1 < 1.1 < 1.2 < 1.11 < 13.37`
 
 ### Примеры
-```compareVersion("0.1", "0.2"); // -1
+```JavaScript
+compareVersion("0.1", "0.2"); // -1
  
 compareVersion("0.2", "0.1"); // 1
  
@@ -18,7 +19,7 @@ compareVersion("4.2", "4.2"); // 0
 Подробнее о версиях: http://semver.org/lang/ru/
 
 ### Решение учителя
-```
+```JavaScript
 const compareVersion = (first, second) => {
   const [a1, b1] = first.split('.');
   const [a2, b2] = second.split('.');
